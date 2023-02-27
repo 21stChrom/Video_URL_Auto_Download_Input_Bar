@@ -32,7 +32,7 @@ const VideoApp = () =>
                                                     return (
                                                         <div>
                                   <html>       
-                                    <body>                     {/* This is the input box for the video URL. */}
+                                    <body class="background-body"         >      {/* This is the input box for the video URL. */}
                                                                     <input type="text" onChange={handleChange} />
                                                                           
                                                                                 {/* This is the React-player component, which will be used to playback the video. It will render after the video file is downloaded. */}
